@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.27.247.198:5000/danielrusev/openchain
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: openchain
